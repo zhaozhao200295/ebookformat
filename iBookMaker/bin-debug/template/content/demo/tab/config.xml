@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<groups>
+		<group label="听力理解" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar" >
+			<download link="7AU01_UnitTest.doc"/>
+			<practice>
+				<item type="Fillin" swf="exec_listen/exec_1.swf" snd="7AU01_UT1_1_5.mp3" answerType="impersonalityTopic">
+					<item>
+						<item>
+							<answer>B</answer>
+						</item>
+						<item>
+							<answer>D</answer>
+						</item>
+						<item>
+							<answer>A</answer>
+						</item>
+						<item>
+							<answer>E</answer>
+						</item>
+						<item>
+							<answer>C</answer>
+						</item>
+					</item>				
+				</item>
+				<item type="ClickChoice" swf="exec_listen/exec_2.swf" snd="7AU01_UT1_6.mp3">
+					<item>
+						<answer>B</answer>
+					</item>
+				</item>
+				<item type="ClickChoice" swf="exec_listen/exec_3.swf" snd="7AU01_UT1_7.mp3">
+					<item>
+						<answer>C</answer>
+					</item>				
+				</item>				
+			</practice>
+		</group>	
+		<group label="单项选择" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar">
+			<practice >
+				<item type="ClickChoice" swf="exec_choice/exec_1.swf" answerType="impersonalityTopic">
+					<answer>B</answer>
+				</item>
+			</practice>
+		</group>		
+		<group label="完成句子" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar">
+			<download link="7AU01_UnitTest.doc"/>
+			<practice>
+				<item type="Fillin" swf="exec_sentence/exec_1.swf" answerType="impersonalityTopic">
+					<item>
+						<item>
+							<answer>B</answer>
+						</item>
+						<item>
+							<answer>D</answer>
+						</item>
+						<item>
+							<answer>A</answer>
+						</item>
+						<item>
+							<answer>E</answer>
+						</item>
+						<item>
+							<answer>C</answer>
+						</item>
+					</item>	
+				</item>
+			</practice>
+		</group>
+		<!--<group label="完形填空" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar">
+			<download link="7AU01_UnitTest.doc"/>
+			<practice>
+				<item type="ClickChoice" swf="exec_fill/exec_1.swf" answerType="impersonalityTopic">
+					<item>
+						<answer>B</answer>
+					</item>
+					<item>
+						<answer>D</answer>
+					</item>
+					<item>
+						<answer>A</answer>
+					</item>
+					<item>
+						<answer>E</answer>
+					</item>
+					<item>
+						<answer>C</answer>
+					</item>
+				</item>
+			</practice>
+		</group>
+		<group label="阅读理解" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar">
+			<download link="7AU01_UnitTest.doc"/>
+			<practice>
+				<item type="Fillin" swf="exec_read/exec_2.swf" answerType="impersonalityTopic">
+					<answer>B</answer>
+				</item>
+			</practice>
+		</group>
+		<group label="书面表达" pane="dt.view.commonPane.CommonPracticePane" toolbar="dt.view.UnitTestToolbar">
+			<download link="7AU01_UnitTest.doc"/>
+			<practice>
+				<item type="Fillin" swf="exec_writing/exec_1.swf" answerType="impersonalityTopic">
+					<answer>B</answer>
+				</item>
+			</practice>
+		</group>-->
+	</groups>
+	<extraData>
+		<practiceList>
+			<tabNum num="1-20">
+				<item>1-5</item>
+				<item>6</item>
+				<item>7</item>
+			</tabNum>
+			<tabNum num="21-35">
+				<item>21</item>
+				<item>22</item>
+			</tabNum>
+			<tabNum num="36-40">
+				<item>36</item>
+				<item>37</item>
+			</tabNum>
+			<tabNum num="41-50">
+				<item>41</item>
+				<item>42</item>
+			</tabNum>
+			<tabNum num="51-60">
+				<item>51</item>
+				<item>52</item>
+			</tabNum>
+			<tabNum num="61-65">
+				<item>61</item>
+				<item>62</item>
+			</tabNum>
+		</practiceList>
+	</extraData>
+</data>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<courseware>
+		<!--
+			item: Slider插件需要显示的文件列表
+				swf - 文件名称
+				thumb - 文件缩略图
+		-->
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_01.swf" thumb="PEP_YW_5S_U1_01_DR_L01_01_thumb.png" desc="" tip="1"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_02.swf" thumb="PEP_YW_5S_U1_01_DR_L01_02_thumb.png" desc="" tip="0"/>
+		<item swf="PEP_YW_5S_U1_01_DR_L01_03.swf" thumb="PEP_YW_5S_U1_01_DR_L01_03_thumb.png" desc="" tip="1"/>
+	</courseware>
+</data>
