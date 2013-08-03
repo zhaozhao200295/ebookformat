@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<lang id="zh_CN">
-    <item text="Failed to load %type% book: %book_path%">加载%type%文件失败。文件路径：%book_path%</item>          
-    <item text="Failed to save the book.">保存文件失败。</item>
-</lang>
