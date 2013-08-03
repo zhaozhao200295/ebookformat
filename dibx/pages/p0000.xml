@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<page version="1.0" xmlns="http://ns.dtedu.com/digipub/dib">
+    <head>
+        <style>
+            <![CDATA[
+            ]]>
+        </style>
+    </head>
+
+    <body backgroundColor="0xffffff" width="1008" backgroundImage="assets/93ED138F-05ED-AFF6-A045-A0B16242DAC3.png" height="706">
+        <button x="612.387906691969" width="30" y="246.52066978178115" src="icons/icon.png" height="21" rotation="2.836119635158884" contentGroupID="1" id="280f83db60784ba805e3418ff4d475e6">
+            <item id="cb8faa4f298e2b68978d41904b621082" />
+            <item id="c02562fe746dddb32198a1948c34c2a4" />
+            <item id="cb8faa4f298e2b68978d41904b621083" />
+            <item id="ce5521aa9ad4688e442d8330a358f78c" />
+        </button>
+        <button x="322.85" width="30" y="365.8" src="icons/icon.png" height="21" id="280f83db60784ba805e3418ff4d475e5" contentGroupID="2">
+            <item id="cb8faa4f298e2b68978d41904b621081" />
+        </button>
+        <button x="578.4" width="30" y="321.25" src="icons/icon.png" height="21" id="4ab7252b4de6970481def04cc479d7ad" label="普通按钮" title="普通按钮">
+            <flash id="8a6c515e58965bf90673f04cdcef8cf4" />
+            <flash id="7b0508a681df32183e36f05229169b9c" />
+        </button>
+    </body>
+</page>

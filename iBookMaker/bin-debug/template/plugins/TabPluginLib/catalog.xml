@@ -1,0 +1,3031 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.5.1" build="21328" minimumSupportedVersion="4.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="fl/core/UIComponent" mod="1170350200296" >
+        <def id="fl.core:UIComponent" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:IME" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="flash.system:IMEConversionMode" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="fl.managers:IFocusManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="fl.managers:StyleManager" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="e" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="e" /> 
+        <dep id="fl.managers:FocusManager" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:InteractiveObject" type="s" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="fl.managers:IFocusManager" type="s" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GUIComponent" mod="1368509228443" signatureChecksum="1416739369" >
+        <def id="dt.components.containers:GUIComponent" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.skins:SkinManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GContainer" mod="1372230139317" signatureChecksum="1017499427" >
+        <def id="dt.components.containers:GContainer" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GUIComponent" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GPane" mod="1373330418951" signatureChecksum="2538566030" >
+        <def id="dt.components.containers:GPane" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushTool" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolMode" type="e" /> 
+        <dep id="com.nocircleno.graffiti:GraffitiCanvas" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="flash.ui:Mouse" type="e" /> 
+        <dep id="dt.common.util:IOTransmit" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushType" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushTool" type="s" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="com.nocircleno.graffiti:GraffitiCanvas" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/view/wordMaster/WordMasterLearnPane" mod="1370771231637" signatureChecksum="2832069209" >
+        <def id="dt.view.wordMaster:WordMasterLearnPane" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GPane" type="i" /> 
+      </script>
+      <script name="dt/components/skins/SkinStyle" mod="1368509234659" signatureChecksum="3668848753" >
+        <def id="dt.components.skins:SkinStyle" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/AgainBtnStyle" mod="1372835332155" signatureChecksum="1520933605" >
+        <def id="dt.components.skins.button:AgainBtnStyle" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IDisposable" mod="1367063594327" signatureChecksum="3669434824" >
+        <def id="com.dtedu.trial.interfaces:IDisposable" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/ILocalizer" mod="1367063594325" signatureChecksum="1681685558" >
+        <def id="com.dtedu.trial.interfaces:ILocalizer" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/BaseScrollSkill" mod="1370771231296" signatureChecksum="1322224269" >
+        <def id="dt.components.skins.scrollPane:BaseScrollSkill" /> 
+        <dep id="dt.rescource:ScaleBitmapConst" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/DownArrowDisabledSkin" mod="1370668685763" signatureChecksum="784216222" >
+        <def id="dt.components.skins.scrollPane:DownArrowDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/PlaySoundBtnStyle" mod="1370771231258" signatureChecksum="378559781" >
+        <def id="dt.components.skins.button:PlaySoundBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/interfaces/IPracticeManager" mod="1372230139019" signatureChecksum="4279802053" >
+        <def id="dt.manager.practiceManager.interfaces:IPracticeManager" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/PracticeBaseManager" mod="1372230138998" signatureChecksum="3321449029" >
+        <def id="dt.manager.practiceManager:PracticeBaseManager" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="dt.model:PracticeAnswerType" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeEstimateManager" mod="1373330419622" signatureChecksum="370927470" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeEstimateManager" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="com/greensock/core/TweenCore" mod="1367063597701" signatureChecksum="751389613" >
+        <def id="com.greensock.core:TweenCore" /> 
+        <dep id="com.greensock.core:SimpleTimeline" type="e" /> 
+        <dep id="com.greensock:TweenLite" type="e" /> 
+        <dep id="com.greensock.core:SimpleTimeline" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/greensock/TweenLite" mod="1367063597835" signatureChecksum="2092317687" >
+        <def id="com.greensock:TweenLite" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.greensock.core:PropTween" type="e" /> 
+        <dep id="com.greensock.core:SimpleTimeline" type="e" /> 
+        <dep id="flash.utils:getTimer" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.greensock.core:PropTween" type="s" /> 
+        <dep id="com.greensock.core:SimpleTimeline" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.greensock.core:TweenCore" type="i" /> 
+      </script>
+      <script name="CellRenderer_overSkin" mod="1190338344687" >
+        <def id="CellRenderer_overSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ShapeDefinition" mod="1367063596292" signatureChecksum="2759735405" >
+        <def id="com.nocircleno.graffiti.tools:ShapeDefinition" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/common/resLib/ResLibrary" mod="1372728482589" signatureChecksum="1056361407" >
+        <def id="dt.common.resLib:ResLibrary" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="dt.common.resLib:Library" type="e" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="dt.common.resLib:Library" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/PlaySoundBtnPlayStyle" mod="1370771231266" signatureChecksum="222781521" >
+        <def id="dt.components.skins.button:PlaySoundBtnPlayStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/events/CanvasEvent" mod="1367063596338" signatureChecksum="630751967" >
+        <def id="com.nocircleno.graffiti.events:CanvasEvent" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/containers/BaseScrollPane" mod="1170529188471" >
+        <def id="fl.containers:BaseScrollPane" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="fl.controls:ScrollBar" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="fl.controls:ScrollBar" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="fl/events/DataChangeEvent" mod="1170135110739" >
+        <def id="fl.events:DataChangeEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GToolbar" mod="1373245657221" signatureChecksum="3248373116" >
+        <def id="dt.components.containers:GToolbar" /> 
+        <dep id="dt.components.containers:GPane" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="dt.components.containers:GPane" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/view/commontoolbar/CommonLearningToolbar" mod="1371710249640" signatureChecksum="3380543855" >
+        <def id="dt.view.commontoolbar:CommonLearningToolbar" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GToolbar" type="i" /> 
+      </script>
+      <script name="ScrollThumb_overSkin" mod="1190338344687" >
+        <def id="ScrollThumb_overSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="fl/controls/listClasses/ICellRenderer" mod="1170135110442" >
+        <def id="fl.controls.listClasses:ICellRenderer" /> 
+        <dep id="fl.controls.listClasses:ListData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/managers/IFocusManagerComponent" mod="1170135110989" >
+        <def id="fl.managers:IFocusManagerComponent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/BaseButton" mod="1170135109692" >
+        <def id="fl.controls:BaseButton" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="fl/controls/LabelButton" mod="1170374936825" >
+        <def id="fl.controls:LabelButton" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="Boolean" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="fl.controls:ButtonLabelPlacement" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+        <dep id="fl.controls:BaseButton" type="i" /> 
+      </script>
+      <script name="fl/controls/listClasses/CellRenderer" mod="1190338344687" >
+        <def id="fl.controls.listClasses:CellRenderer" /> 
+        <dep id="CellRenderer_selectedDisabledSkin" type="e" /> 
+        <dep id="CellRenderer_selectedOverSkin" type="e" /> 
+        <dep id="CellRenderer_downSkin" type="e" /> 
+        <dep id="CellRenderer_selectedUpSkin" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="CellRenderer_upSkin" type="e" /> 
+        <dep id="CellRenderer_selectedDownSkin" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="CellRenderer_disabledSkin" type="e" /> 
+        <dep id="CellRenderer_overSkin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="fl.controls.listClasses:ListData" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="i" /> 
+        <dep id="fl.controls:LabelButton" type="i" /> 
+      </script>
+      <script name="fl/controls/listClasses/ImageCell" mod="1170135110473" >
+        <def id="fl.controls.listClasses:ImageCell" /> 
+        <dep id="fl.containers:UILoader" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="fl.controls.listClasses:TileListData" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="fl.containers:UILoader" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.events:IOErrorEvent" type="s" /> 
+        <dep id="fl.controls.listClasses:ListData" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="i" /> 
+        <dep id="fl.controls.listClasses:CellRenderer" type="i" /> 
+      </script>
+      <script name="dt/rescource/ImagesConst" mod="1372230138907" signatureChecksum="1605523023" >
+        <def id="dt.rescource:ImagesConst" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/TextArea" mod="1190338344687" >
+        <def id="fl.controls:TextArea" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.system:IME" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBar" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="TextArea_upSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="TextArea_disabledSkin" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="Boolean" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="fl.controls:UIScrollBar" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="s" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="fl.controls:UIScrollBar" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="flash.text:TextLineMetrics" type="s" /> 
+        <dep id="fl.managers:IFocusManager" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/DownArrowDownSkin" mod="1370668685765" signatureChecksum="3077975454" >
+        <def id="dt.components.skins.scrollPane:DownArrowDownSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/EnglishPractice/PracticeWriteManager" mod="1373330419373" signatureChecksum="2983016902" >
+        <def id="dt.manager.practiceManager.EnglishPractice:PracticeWriteManager" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="Button_upSkin" mod="1190338344687" >
+        <def id="Button_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/events/Dispatcher" mod="1368509227155" signatureChecksum="565874466" >
+        <def id="dt.events:Dispatcher" /> 
+        <dep id="flash.events:EventDispatcher" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/GraffitiCanvas" mod="1367569678678" signatureChecksum="518159986" >
+        <def id="com.nocircleno.graffiti:GraffitiCanvas" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushTool" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:ShapeObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.events:GraffitiObjectEvent" type="e" /> 
+        <dep id="com.nocircleno.graffiti.converters:FormatType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.display:IBitmapDrawable" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextTool" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="com.nocircleno.graffiti.converters:DegrafaConverter" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:BrushObject" type="e" /> 
+        <dep id="flash.filters:BlurFilter" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.filters:GradientGlowFilter" type="e" /> 
+        <dep id="flash.geom:ColorTransform" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:FillBucketTool" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:LineObject" type="e" /> 
+        <dep id="flash.utils:clearTimeout" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BitmapTool" type="e" /> 
+        <dep id="flash.filters:BitmapFilterType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolMode" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="com.nocircleno.graffiti.managers:GraffitiObjectManager" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeTool" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:SelectionTool" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.events:CanvasEvent" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:TextObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineTool" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:LineObject" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:BitmapTool" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:ShapeObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="com.nocircleno.graffiti.events:GraffitiObjectEvent" type="s" /> 
+        <dep id="com.nocircleno.graffiti.managers:GraffitiObjectManager" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:ITool" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:BrushObject" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:TextObject" type="s" /> 
+        <dep id="flash.geom:ColorTransform" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="dt/model/HighlineTextInfo" mod="1370668684842" signatureChecksum="3587596330" >
+        <def id="dt.model:HighlineTextInfo" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/model/SoundInfo" mod="1368509227119" signatureChecksum="2812755564" >
+        <def id="dt.model:SoundInfo" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/common/util/IOTransmit" mod="1373330449730" signatureChecksum="3321606433" >
+        <def id="dt.common.util:IOTransmit" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLLoaderDataFormat" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.net:URLLoader" type="e" /> 
+        <dep id="flash.net:FileReference" type="e" /> 
+        <dep id="com.adobe.images:JPGEncoder" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.net:URLLoader" type="s" /> 
+        <dep id="flash.net:FileReference" type="s" /> 
+        <dep id="com.adobe.images:JPGEncoder" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeDragManager" mod="1373330419638" signatureChecksum="2168720978" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeDragManager" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/BrushDefinition" mod="1367063596288" signatureChecksum="2722950011" >
+        <def id="com.nocircleno.graffiti.tools:BrushDefinition" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/PrevQuestionBtnStyle" mod="1370771231273" signatureChecksum="3753343184" >
+        <def id="dt.components.skins.button:PrevQuestionBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="fl/controls/Label" mod="1190338344687" >
+        <def id="fl.controls:Label" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="Boolean" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GLabel" mod="1370668685185" signatureChecksum="545508050" >
+        <def id="dt.components.controls:GLabel" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.skins:SkinManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:Label" type="i" /> 
+      </script>
+      <script name="ScrollPane_disabledSkin" mod="1190338344687" >
+        <def id="ScrollPane_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/display/GraffitiObject" mod="1367063596372" signatureChecksum="1398531173" >
+        <def id="com.nocircleno.graffiti.display:GraffitiObject" /> 
+        <dep id="com.nocircleno.graffiti.events:GraffitiObjectEvent" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/utils/Conversions" mod="1367063596317" signatureChecksum="1282684242" >
+        <def id="com.nocircleno.graffiti.utils:Conversions" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IResourceBundle" mod="1367063594322" signatureChecksum="311775668" >
+        <def id="com.dtedu.trial.interfaces:IResourceBundle" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IResourceLoader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/UpArrowDownSkin" mod="1370668685777" signatureChecksum="20130808" >
+        <def id="dt.components.skins.scrollPane:UpArrowDownSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IResourceProvider" mod="1367063594299" signatureChecksum="300839622" >
+        <def id="com.dtedu.trial.interfaces:IResourceProvider" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IResourceBundle" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IResourceLoader" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="Button_disabledSkin" mod="1190338344687" >
+        <def id="Button_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ITool" mod="1367063596285" signatureChecksum="1100824261" >
+        <def id="com.nocircleno.graffiti.tools:ITool" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/BitmapTool" mod="1367063596293" signatureChecksum="926617819" >
+        <def id="com.nocircleno.graffiti.tools:BitmapTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolMode" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:ITool" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/BrushTool" mod="1367063596297" signatureChecksum="4099111766" >
+        <def id="com.nocircleno.graffiti.tools:BrushTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.display:GraphicsPathCommand" type="e" /> 
+        <dep id="com.nocircleno.graffiti.utils:Conversions" type="e" /> 
+        <dep id="flash.filters:BlurFilter" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushType" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:BitmapTool" type="i" /> 
+      </script>
+      <script name="dt/manager/BrakSundManager" mod="1371439669239" signatureChecksum="1745460935" >
+        <def id="dt.manager:BrakSundManager" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.media:SoundChannel" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.media:SoundTransform" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.media:Sound" type="e" /> 
+        <dep id="flash.media:SoundChannel" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="flash.media:SoundTransform" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.media:Sound" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/common/util/Alert" mod="1372728482500" signatureChecksum="479979819" >
+        <def id="dt.common.util:Alert" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="flash.display:GradientType" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="flash.filters:BlurFilter" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.filters:DropShadowFilter" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.filters:BitmapFilter" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.filters:DropShadowFilter" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ThumbUpSkin" mod="1370668685771" signatureChecksum="2753122208" >
+        <def id="dt.components.skins.scrollPane:ThumbUpSkin" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="TextArea_upSkin" mod="1190338344687" >
+        <def id="TextArea_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="fl/controls/SelectableList" mod="1170135110176" >
+        <def id="fl.controls:SelectableList" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="fl.data:DataProvider" type="e" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="e" /> 
+        <dep id="fl.events:DataChangeEvent" type="e" /> 
+        <dep id="fl.controls.listClasses:CellRenderer" type="e" /> 
+        <dep id="fl.events:ListEvent" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.events:DataChangeType" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="fl.data:DataProvider" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="fl.events:DataChangeEvent" type="s" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="fl.data:SimpleCollectionItem" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.containers:BaseScrollPane" type="i" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+      </script>
+      <script name="fl/controls/List" mod="1190338344687" >
+        <def id="fl.controls:List" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="CellRenderer_selectedOverSkin" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="e" /> 
+        <dep id="CellRenderer_upSkin" type="e" /> 
+        <dep id="CellRenderer_selectedDownSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:CellRenderer" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBar" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:ListData" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="CellRenderer_overSkin" type="e" /> 
+        <dep id="CellRenderer_disabledSkin" type="e" /> 
+        <dep id="List_skin" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="CellRenderer_selectedDisabledSkin" type="e" /> 
+        <dep id="CellRenderer_downSkin" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="CellRenderer_selectedUpSkin" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:SelectableList" type="i" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+      </script>
+      <script name="ScrollBar_thumbIcon" mod="1190338344687" >
+        <def id="ScrollBar_thumbIcon" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/containers/BaseWindow" mod="1372230139358" signatureChecksum="4217350258" >
+        <def id="dt.components.containers:BaseWindow" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/model/MyTextFontName" mod="1373330420106" signatureChecksum="1218488795" >
+        <def id="dt.model:MyTextFontName" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/managers/StyleManager" mod="1170135111161" >
+        <def id="fl.managers:StyleManager" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.utils:getDefinitionByName" type="e" /> 
+        <dep id="flash.utils:getQualifiedSuperclassName" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/view/commonPane/CommonPracticePane" mod="1373330419716" signatureChecksum="2156317279" >
+        <def id="dt.view.commonPane:CommonPracticePane" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="XMLList" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GPane" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/display/TextObject" mod="1367063596375" signatureChecksum="1419652865" >
+        <def id="com.nocircleno.graffiti.display:TextObject" /> 
+        <dep id="flash.text:AntiAliasType" type="e" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.text:GridFitType" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextSettings" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="i" /> 
+      </script>
+      <script name="dt/components/skins/GlobalSkin" mod="1372230139176" signatureChecksum="4215288445" >
+        <def id="dt.components.skins:GlobalSkin" /> 
+        <dep id="dt.components.skins.button:TabBtnStyle" type="e" /> 
+        <dep id="dt.components.skins.button:SubmitBtnStyle" type="e" /> 
+        <dep id="dt.components.skins:SkinManager" type="e" /> 
+        <dep id="dt.components.skins.button:PlaySoundBtnStopStyle" type="e" /> 
+        <dep id="dt.components.skins.button:TabBtnBStyle" type="e" /> 
+        <dep id="dt.components.skins.button:PrevQuestionBtnStyle" type="e" /> 
+        <dep id="dt.components.skins.button:NextQuestionBtnStyle" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.components.skins.button:AgainBtnStyle" type="e" /> 
+        <dep id="dt.components.skins.button:WindowCloseBtnStyle" type="e" /> 
+        <dep id="dt.components.skins.button:RefAnswerBtnStyle" type="e" /> 
+        <dep id="dt.components.skins.button:PlaySoundBtnPlayStyle" type="e" /> 
+        <dep id="dt.components.skins.label:GLabelStyle" type="e" /> 
+        <dep id="fl.managers:StyleManager" type="e" /> 
+        <dep id="dt.components.skins.scrollPane:ScrollPaneStyle" type="e" /> 
+        <dep id="dt.components.skins.button:DownloadBtnStyle" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/data/SimpleCollectionItem" mod="1170135110629" >
+        <def id="fl.data:SimpleCollectionItem" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeLineManager" mod="1373330419622" signatureChecksum="921633509" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeLineManager" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="ArgumentError" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="ArgumentError" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.display:Shape" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="dt/manager/GManager" mod="1372230139067" signatureChecksum="1258516779" >
+        <def id="dt.manager:GManager" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.components.skins:GlobalSkin" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="dt.manager:TooltipManager" type="e" /> 
+        <dep id="com.dtedu.trial.interfaces:IKernel" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/miscs/ImagesConst" mod="1372728482138" signatureChecksum="4109333969" >
+        <def id="com.dtedu.ebook.miscs:ImagesConst" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/events/GraffitiObjectEvent" mod="1367063596336" signatureChecksum="2573713609" >
+        <def id="com.nocircleno.graffiti.events:GraffitiObjectEvent" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IBrowserNavigator" mod="1367063594297" signatureChecksum="2562735992" >
+        <def id="com.dtedu.trial.interfaces:IBrowserNavigator" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/TileList" mod="1190338344687" >
+        <def id="fl.controls:TileList" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="CellRenderer_selectedOverSkin" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="e" /> 
+        <dep id="CellRenderer_upSkin" type="e" /> 
+        <dep id="CellRenderer_selectedDownSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:CellRenderer" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBar" type="e" /> 
+        <dep id="TileList_skin" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:ImageCell" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:ListData" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="CellRenderer_disabledSkin" type="e" /> 
+        <dep id="CellRenderer_overSkin" type="e" /> 
+        <dep id="CellRenderer_selectedDisabledSkin" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="CellRenderer_downSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="CellRenderer_selectedUpSkin" type="e" /> 
+        <dep id="fl.controls.listClasses:TileListData" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="fl.data:DataProvider" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="fl.controls.listClasses:ICellRenderer" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="fl.data:TileListCollectionItem" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:SelectableList" type="i" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+      </script>
+      <script name="fl/managers/IFocusManager" mod="1170135110973" >
+        <def id="fl.managers:IFocusManager" /> 
+        <dep id="flash.display:InteractiveObject" type="s" /> 
+        <dep id="fl.controls:Button" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/managers/FocusManager" mod="1170374936997" >
+        <def id="fl.managers:FocusManager" /> 
+        <dep id="SecurityError" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.display:InteractiveObject" type="e" /> 
+        <dep id="fl.controls:Button" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="e" /> 
+        <dep id="flash.display:Stage" type="e" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="e" /> 
+        <dep id="fl.managers:IFocusManagerGroup" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="SecurityError" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:InteractiveObject" type="s" /> 
+        <dep id="fl.controls:Button" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="s" /> 
+        <dep id="fl.managers:IFocusManagerGroup" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.managers:IFocusManager" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="List_skin" mod="1190338344687" >
+        <def id="List_skin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/view/wordMaster/WordMasterWordPane" mod="1372397536661" signatureChecksum="3117226469" >
+        <def id="dt.view.wordMaster:WordMasterWordPane" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="dt.common.util:DisplayObjectUtil" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GPane" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/NextQuestionBtnStyle" mod="1370771231241" signatureChecksum="3766188244" >
+        <def id="dt.components.skins.button:NextQuestionBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IResourceLoader" mod="1367063594302" signatureChecksum="869456850" >
+        <def id="com.dtedu.trial.interfaces:IResourceLoader" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.dtedu.trial.events:ResourceErrorEvent" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IResourceBundle" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/WindowCloseBtnStyle" mod="1372230139194" signatureChecksum="977431732" >
+        <def id="dt.components.skins.button:WindowCloseBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="com.dtedu.ebook.miscs:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/managers/GraffitiObjectManager" mod="1367063596421" signatureChecksum="143821738" >
+        <def id="com.nocircleno.graffiti.managers:GraffitiObjectManager" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="com.nocircleno.graffiti.events:GraffitiObjectEvent" type="e" /> 
+        <dep id="flash.utils:getQualifiedClassName" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:LineObject" type="e" /> 
+        <dep id="flash.text:Font" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:BrushObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:EditableParams" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:ShapeObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:TextObject" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="s" /> 
+        <dep id="flash.text:Font" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextSettings" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/global/Global" mod="1373330419965" signatureChecksum="2398205495" >
+        <def id="dt.global:Global" /> 
+        <dep id="com.dtedu.ebook.interfaces:ILoadManager" type="e" /> 
+        <dep id="flash.net:LocalConnection" type="e" /> 
+        <dep id="com.dtedu.ebook.interfaces:ISoundManager" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.dtedu.ebook.miscs:ManagerConst" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="com.dtedu.ebook.interfaces:IThemeManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.dtedu.ebook.interfaces:ILoadManager" type="s" /> 
+        <dep id="com.dtedu.ebook.interfaces:ISoundManager" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IKernel" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="com.dtedu.ebook.interfaces:IThemeManager" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/view/UnitTestToolbar" mod="1373330419716" signatureChecksum="396544713" >
+        <def id="dt.view:UnitTestToolbar" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="dt.model:PracticeAnswerType" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="dt.components.controls:GImageButton" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GToolbar" type="i" /> 
+      </script>
+      <script name="Button_selectedOverSkin" mod="1190338344687" >
+        <def id="Button_selectedOverSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GBox" mod="1372230139339" signatureChecksum="2093688358" >
+        <def id="dt.components.containers:GBox" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.containers.globalVariable:GBoxDirection" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GTabBar" mod="1373330418827" signatureChecksum="2661204929" >
+        <def id="dt.components.controls:GTabBar" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.events:TabBarEvent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.containers.globalVariable:GBoxDirection" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GBox" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ThumbIcon" mod="1370668685752" signatureChecksum="2003579093" >
+        <def id="dt.components.skins.scrollPane:ThumbIcon" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/ILogger" mod="1367063594304" signatureChecksum="2840952853" >
+        <def id="com.dtedu.trial.interfaces:ILogger" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/display/ShapeObject" mod="1367063596373" signatureChecksum="3294835023" >
+        <def id="com.nocircleno.graffiti.display:ShapeObject" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeType" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="i" /> 
+      </script>
+      <script name="dt/events/videoPlayer/NetStatusEventName" mod="1370668684977" signatureChecksum="2756077847" >
+        <def id="dt.events.videoPlayer:NetStatusEventName" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/global/GConst" mod="1373330419965" signatureChecksum="49091551" >
+        <def id="dt.global:GConst" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticePaintingManager" mod="1373330419622" signatureChecksum="4231630585" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticePaintingManager" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="dt/model/PracticeAnswerType" mod="1368509226726" signatureChecksum="799757261" >
+        <def id="dt.model:PracticeAnswerType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/containers/ScrollPane" mod="1190338344687" >
+        <def id="fl.containers:ScrollPane" /> 
+        <dep id="flash.ui:Keyboard" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="ScrollPane_disabledSkin" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBar" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="ScrollPane_upSkin" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.containers:BaseScrollPane" type="i" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ScrollBarResizableScrollPane" mod="1368509227241" signatureChecksum="2124999669" >
+        <def id="dt.components.controls.scrollBarResizable:ScrollBarResizableScrollPane" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.components.controls.scrollBarResizable:ResizableScrollBar" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.containers:ScrollPane" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/interfaces/IManager" mod="1370668683750" signatureChecksum="1035943434" >
+        <def id="com.dtedu.ebook.interfaces:IManager" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/interfaces/ILoadManager" mod="1370771226789" signatureChecksum="3149558428" >
+        <def id="com.dtedu.ebook.interfaces:ILoadManager" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.ebook.interfaces:IManager" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GLayer" mod="1372230139308" signatureChecksum="3241270013" >
+        <def id="dt.components.containers:GLayer" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:BaseWindow" type="i" /> 
+      </script>
+      <script name="fl/data/TileListCollectionItem" mod="1170135110661" >
+        <def id="fl.data:TileListCollectionItem" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/RefAnswerBtnStyle" mod="1373330419201" signatureChecksum="4227036672" >
+        <def id="dt.components.skins.button:RefAnswerBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/components/events/TabBarEvent" mod="1368509227852" signatureChecksum="1117806153" >
+        <def id="dt.components.events:TabBarEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="ScrollArrowDown_overSkin" mod="1190338344687" >
+        <def id="ScrollArrowDown_overSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="fl/controls/ScrollBar" mod="1190338344687" >
+        <def id="fl.controls:ScrollBar" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="fl.controls:BaseButton" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="fl.controls:LabelButton" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="fl.events:ComponentEvent" type="s" /> 
+        <dep id="fl.controls:BaseButton" type="s" /> 
+        <dep id="fl.controls:LabelButton" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="fl/controls/UIScrollBar" mod="1190338344687" >
+        <def id="fl.controls:UIScrollBar" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="ScrollArrowUp_overSkin" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="ScrollArrowUp_disabledSkin" type="e" /> 
+        <dep id="ScrollArrowDown_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="ScrollBar_thumbIcon" type="e" /> 
+        <dep id="ScrollThumb_overSkin" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="ScrollThumb_upSkin" type="e" /> 
+        <dep id="ScrollArrowDown_overSkin" type="e" /> 
+        <dep id="ScrollThumb_downSkin" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="ScrollArrowUp_upSkin" type="e" /> 
+        <dep id="ScrollArrowDown_downSkin" type="e" /> 
+        <dep id="ScrollArrowUp_downSkin" type="e" /> 
+        <dep id="ScrollTrack_skin" type="e" /> 
+        <dep id="ScrollArrowDown_disabledSkin" type="e" /> 
+        <dep id="fl.events:ScrollEvent" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:ScrollBar" type="i" /> 
+      </script>
+      <script name="dt/components/containers/globalVariable/GBoxDirection" mod="1368509228820" signatureChecksum="525090328" >
+        <def id="dt.components.containers.globalVariable:GBoxDirection" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/gconst/FilterConst" mod="1372230139219" signatureChecksum="56621916" >
+        <def id="dt.components.gconst:FilterConst" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="e" /> 
+        <dep id="flash.filters:DropShadowFilter" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="s" /> 
+        <dep id="flash.filters:DropShadowFilter" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/player/videoPlayer/GVideoPlayer" mod="1370668685868" signatureChecksum="1431701700" >
+        <def id="dt.components.player.videoPlayer:GVideoPlayer" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:StageDisplayState" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="dt.events.videoPlayer:NetStatusEventName" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.events:FullScreenEvent" type="e" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="flash.utils:Timer" type="e" /> 
+        <dep id="flash.net:NetStream" type="e" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayerControlbar" type="e" /> 
+        <dep id="flash.events:TimerEvent" type="e" /> 
+        <dep id="flash.media:Video" type="e" /> 
+        <dep id="com.greensock:TweenLite" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.net:NetConnection" type="e" /> 
+        <dep id="flash.events:NetStatusEvent" type="e" /> 
+        <dep id="dt.manager:TooltipManager" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.media:SoundTransform" type="s" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="s" /> 
+        <dep id="flash.events:FullScreenEvent" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.utils:Timer" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayerControlbar" type="s" /> 
+        <dep id="flash.net:NetStream" type="s" /> 
+        <dep id="flash.media:Video" type="s" /> 
+        <dep id="flash.events:TimerEvent" type="s" /> 
+        <dep id="flash.net:NetConnection" type="s" /> 
+        <dep id="com.greensock:TweenLite" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.events:NetStatusEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ThumbOverSkin" mod="1370668685768" signatureChecksum="1754745128" >
+        <def id="dt.components.skins.scrollPane:ThumbOverSkin" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/events/TreeEventName" mod="1370668685009" signatureChecksum="3552527970" >
+        <def id="dt.events:TreeEventName" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/Button" mod="1190338344687" >
+        <def id="fl.controls:Button" /> 
+        <dep id="focusRectSkin" type="e" /> 
+        <dep id="Number" type="e" /> 
+        <dep id="Button_disabledSkin" type="e" /> 
+        <dep id="Button_upSkin" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="Button_selectedDownSkin" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="Button_selectedUpSkin" type="e" /> 
+        <dep id="fl.core:UIComponent" type="e" /> 
+        <dep id="Class" type="e" /> 
+        <dep id="Button_emphasizedSkin" type="e" /> 
+        <dep id="Button_selectedDisabledSkin" type="e" /> 
+        <dep id="Button_overSkin" type="e" /> 
+        <dep id="Button_downSkin" type="e" /> 
+        <dep id="Button_selectedOverSkin" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.managers:IFocusManagerComponent" type="i" /> 
+        <dep id="fl.controls:LabelButton" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GButton" mod="1368509227190" signatureChecksum="3334438811" >
+        <def id="dt.components.controls:GButton" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.skins:SkinManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:Button" type="i" /> 
+      </script>
+      <script name="Button_selectedDownSkin" mod="1190338344687" >
+        <def id="Button_selectedDownSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="TileList_skin" mod="1190338344687" >
+        <def id="TileList_skin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/INotifier" mod="1367063594306" signatureChecksum="2543924482" >
+        <def id="com.dtedu.trial.interfaces:INotifier" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/label/GLabelStyle" mod="1370668685583" signatureChecksum="4047721444" >
+        <def id="dt.components.skins.label:GLabelStyle" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/EditableParams" mod="1367063596294" signatureChecksum="2104719171" >
+        <def id="com.nocircleno.graffiti.tools:EditableParams" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="Button_downSkin" mod="1190338344687" >
+        <def id="Button_downSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/common/call/IDispose" mod="1372728482344" signatureChecksum="1008148314" >
+        <def id="dt.common.call:IDispose" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/model/PracticeType" mod="1373330420106" signatureChecksum="1835520574" >
+        <def id="dt.model:PracticeType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ThumbDisabledSkin" mod="1370668685756" signatureChecksum="2957323608" >
+        <def id="dt.components.skins.scrollPane:ThumbDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/interfaces/ISoundManager" mod="1370668683789" signatureChecksum="3664133289" >
+        <def id="com.dtedu.ebook.interfaces:ISoundManager" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.ebook.interfaces:IManager" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/player/videoPlayer/GVideoPlayerControlbar" mod="1370668685863" signatureChecksum="2192898020" >
+        <def id="dt.components.player.videoPlayer:GVideoPlayerControlbar" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPLayerVolumeBar" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:StageDisplayState" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="dt.events.videoPlayer:NetStatusEventName" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="dt.manager:TooltipManager" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPLayerVolumeBar" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayer" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/common/util/StrUtil" mod="1372728482500" signatureChecksum="4209912145" >
+        <def id="dt.common.util:StrUtil" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="CellRenderer_selectedOverSkin" mod="1190338344687" >
+        <def id="CellRenderer_selectedOverSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/LayerType" mod="1367063596295" signatureChecksum="3513201380" >
+        <def id="com.nocircleno.graffiti.tools:LayerType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/model/SoundInfo" mod="1370771226749" signatureChecksum="1289179378" >
+        <def id="com.dtedu.ebook.model:SoundInfo" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IDataBag" mod="1367063594325" signatureChecksum="3100457266" >
+        <def id="com.dtedu.trial.interfaces:IDataBag" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/converters/FormatType" mod="1367063596404" signatureChecksum="1717120513" >
+        <def id="com.nocircleno.graffiti.converters:FormatType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/events/ResourceErrorEvent" mod="1367063593230" signatureChecksum="802247568" >
+        <def id="com.dtedu.trial.events:ResourceErrorEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:ErrorEvent" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/TextTool" mod="1367063596299" signatureChecksum="1655140798" >
+        <def id="com.nocircleno.graffiti.tools:TextTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextSettings" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:ITool" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ScrollBarResizableList" mod="1368509227196" signatureChecksum="4082295255" >
+        <def id="dt.components.controls.scrollBarResizable:ScrollBarResizableList" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.components.controls.scrollBarResizable:ResizableScrollBar" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:List" type="i" /> 
+      </script>
+      <script name="dt/manager/HighlineTextManager" mod="1372397536612" signatureChecksum="454178617" >
+        <def id="dt.manager:HighlineTextManager" /> 
+        <dep id="flash.text:StaticText" type="e" /> 
+        <dep id="flash.utils:clearTimeout" type="e" /> 
+        <dep id="dt.common.util:TextUtil" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:setTimeout" type="e" /> 
+        <dep id="flash.utils:clearInterval" type="e" /> 
+        <dep id="dt.model:HighlineTextInfo" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="dt.common.util:HTMLUtil" type="e" /> 
+        <dep id="flash.text:StaticText" type="s" /> 
+        <dep id="dt.model:HighlineTextInfo" type="s" /> 
+        <dep id="flash.events:TextEvent" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/interfaces/IThemeManager" mod="1370771226786" signatureChecksum="391619826" >
+        <def id="com.dtedu.ebook.interfaces:IThemeManager" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.ebook.interfaces:IManager" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ScrollPaneStyle" mod="1372230139153" signatureChecksum="4208160799" >
+        <def id="dt.components.skins.scrollPane:ScrollPaneStyle" /> 
+        <dep id="dt.components.skins.scrollBar:ScrollBarStyle" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="dt.components.skins.scrollBar:ScrollBarStyle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/common/resLib/Library" mod="1372728482584" signatureChecksum="246724603" >
+        <def id="dt.common.resLib:Library" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="ReferenceError" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="dt.common.resLib.events:LibraryEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="dt.common.call:Caller" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="dt.common.resLib:LibraryLoader" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="dt.common.call:Caller" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="dt.common.resLib:LibraryLoader" type="s" /> 
+        <dep id="flash.events:ErrorEvent" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="CellRenderer_disabledSkin" mod="1190338344687" >
+        <def id="CellRenderer_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="CellRenderer_selectedDisabledSkin" mod="1190338344687" >
+        <def id="CellRenderer_selectedDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="CellRenderer_selectedUpSkin" mod="1190338344687" >
+        <def id="CellRenderer_selectedUpSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ToolMode" mod="1367063596298" signatureChecksum="2118007903" >
+        <def id="com.nocircleno.graffiti.tools:ToolMode" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="focusRectSkin" mod="1190338344687" >
+        <def id="focusRectSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/TabBtnBStyle" mod="1370771231250" signatureChecksum="1868130928" >
+        <def id="dt.components.skins.button:TabBtnBStyle" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/components/containers/GWindow" mod="1372230139258" signatureChecksum="1976417127" >
+        <def id="dt.components.containers:GWindow" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.components.containers:GLayer" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.containers:GPane" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.components.gconst:FilterConst" type="e" /> 
+        <dep id="mx.events:CloseEvent" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="dt.components.controls:GTabBar" type="s" /> 
+        <dep id="dt.components.containers:GToolbar" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="dt.components.containers:GLayer" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="dt.components.events:TabBarEvent" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="dt.components.containers:GPane" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="dt.components.controls:GScrollPane" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:BaseWindow" type="i" /> 
+      </script>
+      <script name="com/adobe/images/JPGEncoder" mod="1367063595707" signatureChecksum="2135505582" >
+        <def id="com.adobe.images:JPGEncoder" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.adobe.images:BitString" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="com.adobe.images:BitString" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/FillBucketTool" mod="1367063596300" signatureChecksum="4042773822" >
+        <def id="com.nocircleno.graffiti.tools:FillBucketTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:ITool" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ScrollArrowDown_disabledSkin" mod="1190338344687" >
+        <def id="ScrollArrowDown_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/common/call/ICaller" mod="1372728482344" signatureChecksum="1029328114" >
+        <def id="dt.common.call:ICaller" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.common.call:IDispose" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/common/call/Caller" mod="1372728482344" signatureChecksum="1243117077" >
+        <def id="dt.common.call:Caller" /> 
+        <dep id="dt.common.util:ArrayUtil" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="dt.common.call:ICaller" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/EnglishPractice/PracticeFillinManager" mod="1373330419373" signatureChecksum="2047320356" >
+        <def id="dt.manager.practiceManager.EnglishPractice:PracticeFillinManager" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="e" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GScrollBar" mod="1368509227781" signatureChecksum="3181789053" >
+        <def id="dt.components.controls:GScrollBar" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:ScrollBar" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeChoiceManager" mod="1373330419622" signatureChecksum="1475875006" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeChoiceManager" /> 
+        <dep id="dt.model:PracticeType" type="e" /> 
+        <dep id="dt.components.containers:GWindow" type="e" /> 
+        <dep id="dt.events:Dispatcher" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="com.greensock:TweenLite" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="com.dtedu.ebook.model:SoundInfo" type="s" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="com.greensock:TweenLite" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollBar/ScrollBarStyle" mod="1372230139169" signatureChecksum="997324180" >
+        <def id="dt.components.skins.scrollBar:ScrollBarStyle" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="org/bytearray/display/ScaleBitmap" mod="1367063598224" signatureChecksum="1364147098" >
+        <def id="org.bytearray.display:ScaleBitmap" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.geom:Matrix" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Matrix" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Bitmap" type="i" /> 
+      </script>
+      <script name="dt/manager/LayerManager" mod="1372230139032" signatureChecksum="355424872" >
+        <def id="dt.manager:LayerManager" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.containers:GLayer" type="e" /> 
+        <dep id="dt.components.containers:GLayer" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IListener" mod="1367063594326" signatureChecksum="3135519243" >
+        <def id="com.dtedu.trial.interfaces:IListener" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/display/BrushObject" mod="1367063596374" signatureChecksum="226441993" >
+        <def id="com.nocircleno.graffiti.display:BrushObject" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.filters:BlurFilter" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushType" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="i" /> 
+      </script>
+      <script name="dt/events/GEvent" mod="1368509227158" signatureChecksum="2736731160" >
+        <def id="dt.events:GEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="ScrollArrowDown_downSkin" mod="1190338344687" >
+        <def id="ScrollArrowDown_downSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="fl/controls/ScrollBarDirection" mod="1170135110129" >
+        <def id="fl.controls:ScrollBarDirection" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/ThumbDownSkin" mod="1370668685758" signatureChecksum="1046819454" >
+        <def id="dt.components.skins.scrollPane:ThumbDownSkin" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="com/adobe/images/BitString" mod="1367063595725" signatureChecksum="4145946874" >
+        <def id="com.adobe.images:BitString" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/global/GFilterConst" mod="1372230139125" signatureChecksum="2358366791" >
+        <def id="dt.global:GFilterConst" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="e" /> 
+        <dep id="flash.filters:DropShadowFilter" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="s" /> 
+        <dep id="flash.filters:ColorMatrixFilter" type="s" /> 
+        <dep id="flash.filters:DropShadowFilter" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GImageButton" mod="1368509227253" signatureChecksum="3210643147" >
+        <def id="dt.components.controls:GImageButton" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:Button" type="i" /> 
+      </script>
+      <script name="fl/controls/ScrollPolicy" mod="1170135110161" >
+        <def id="fl.controls:ScrollPolicy" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/events/EventName" mod="1373330418780" signatureChecksum="2763059739" >
+        <def id="dt.events:EventName" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/listClasses/ListData" mod="1170135110489" >
+        <def id="fl.controls.listClasses:ListData" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/TabBtnStyle" mod="1370771231244" signatureChecksum="2910040040" >
+        <def id="dt.components.skins.button:TabBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/common/util/TextUtil" mod="1372728482485" signatureChecksum="1634420529" >
+        <def id="dt.common.util:TextUtil" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/events/ComponentEvent" mod="1170135110707" >
+        <def id="fl.events:ComponentEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ResizableScrollBar" mod="1368509227238" signatureChecksum="2953596324" >
+        <def id="dt.components.controls.scrollBarResizable:ResizableScrollBar" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:ScrollBar" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeClickChoiceManager" mod="1373330419622" signatureChecksum="3954179730" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeClickChoiceManager" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/ISettings" mod="1367063594298" signatureChecksum="3064427274" >
+        <def id="com.dtedu.trial.interfaces:ISettings" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IKernelProvider" mod="1367063594290" signatureChecksum="262485607" >
+        <def id="com.dtedu.trial.interfaces:IKernelProvider" /> 
+        <dep id="com.dtedu.trial.interfaces:IKernel" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IKernel" mod="1367063594307" signatureChecksum="1743550704" >
+        <def id="com.dtedu.trial.interfaces:IKernel" /> 
+        <dep id="com.dtedu.trial.interfaces:IDataBag" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IServiceFactory" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:ISettings" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:ILocalizer" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:ICommand" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IBrowserNavigator" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IAsyncToken" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:IResourceProvider" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:ILogger" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="com.dtedu.trial.interfaces:IKernelProvider" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/cache/MainCache" mod="1368509227134" signatureChecksum="4399443" >
+        <def id="dt.cache:MainCache" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="Button_emphasizedSkin" mod="1190338344687" >
+        <def id="Button_emphasizedSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="Button_overSkin" mod="1190338344687" >
+        <def id="Button_overSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/common/resLib/LibraryLoader" mod="1372728482586" signatureChecksum="2485637854" >
+        <def id="dt.common.resLib:LibraryLoader" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="Date" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:ProgressEvent" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.events:ErrorEvent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="dt/manager/TooltipManager" mod="1372728482596" signatureChecksum="4076291252" >
+        <def id="dt.manager:TooltipManager" /> 
+        <dep id="flash.text:TextFieldAutoSize" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="flash.filters:DropShadowFilter" type="e" /> 
+        <dep id="com.greensock:TweenLite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Stage" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IServiceFactory" mod="1367063594289" signatureChecksum="3993456437" >
+        <def id="com.dtedu.trial.interfaces:IServiceFactory" /> 
+        <dep id="flash.net:NetConnection" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/model/PopupType" mod="1372230138921" signatureChecksum="2140457339" >
+        <def id="dt.model:PopupType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ScrollBarResizableTextArea" mod="1368509227236" signatureChecksum="1123560723" >
+        <def id="dt.components.controls.scrollBarResizable:ScrollBarResizableTextArea" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.events:TextEvent" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.components.controls.scrollBarResizable:ResizableUIScrollBar" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.events:KeyboardEvent" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="fl.managers:IFocusManager" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:TextArea" type="i" /> 
+      </script>
+      <script name="CellRenderer_upSkin" mod="1190338344687" >
+        <def id="CellRenderer_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/ChinesePractice/PracticeFillinManager" mod="1373330419638" signatureChecksum="3729016198" >
+        <def id="dt.manager.practiceManager.ChinesePractice:PracticeFillinManager" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.text:TextFieldType" type="e" /> 
+        <dep id="mx.utils:StringUtil" type="e" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="flash.text:TextFormatAlign" type="e" /> 
+        <dep id="flash.events:FocusEvent" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.events:FocusEvent" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="fl/core/InvalidationType" mod="1170135110567" >
+        <def id="fl.core:InvalidationType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/view/commontoolbar/CommonPracticeToolbar" mod="1373330419716" signatureChecksum="1011521709" >
+        <def id="dt.view.commontoolbar:CommonPracticeToolbar" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.model:PracticeType" type="e" /> 
+        <dep id="dt.model:PracticeAnswerType" type="e" /> 
+        <dep id="dt.events:EventName" type="e" /> 
+        <dep id="dt.events:GEvent" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="XMLList" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="dt.components.controls:GImageButton" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GToolbar" type="i" /> 
+      </script>
+      <script name="fl/managers/IFocusManagerGroup" mod="1170135111145" >
+        <def id="fl.managers:IFocusManagerGroup" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/view/wordMaster/WordMasterPracticePane" mod="1370771231642" signatureChecksum="741526968" >
+        <def id="dt.view.wordMaster:WordMasterPracticePane" /> 
+        <dep id="dt.manager.practiceManager:PracticeManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="XMLList" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GPane" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/TextSettings" mod="1367063596291" signatureChecksum="3931290124" >
+        <def id="com.nocircleno.graffiti.tools:TextSettings" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.text:FontType" type="e" /> 
+        <dep id="flash.text:Font" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ScrollArrowUp_overSkin" mod="1190338344687" >
+        <def id="ScrollArrowUp_overSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/display/LineObject" mod="1367063596376" signatureChecksum="3948948894" >
+        <def id="com.nocircleno.graffiti.display:LineObject" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineType" type="e" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.filters:BitmapFilterQuality" type="e" /> 
+        <dep id="flash.filters:GlowFilter" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="i" /> 
+      </script>
+      <script name="dt/components/skins/SkinManager" mod="1368509234616" signatureChecksum="198603760" >
+        <def id="dt.components.skins:SkinManager" /> 
+        <dep id="dt.components.skins:SkinStyle" type="e" /> 
+        <dep id="flash.utils:Dictionary" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="dt.components.skins:SkinStyle" type="s" /> 
+        <dep id="flash.utils:Dictionary" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/view/commontoolbar/CommonVideoPlayToolbar" mod="1370668684727" signatureChecksum="3478861702" >
+        <def id="dt.view.commontoolbar:CommonVideoPlayToolbar" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPLayerVolumeBar" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.text:TextField" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:StageDisplayState" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="dt.events.videoPlayer:NetStatusEventName" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="dt.manager:TooltipManager" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPLayerVolumeBar" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="dt.components.containers:GPane" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GToolbar" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/TrackUpSkin" mod="1370668685760" signatureChecksum="1041778532" >
+        <def id="dt.components.skins.scrollPane:TrackUpSkin" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/TrackDisabledSkin" mod="1370668685744" signatureChecksum="2906402114" >
+        <def id="dt.components.skins.scrollPane:TrackDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/UpArrowDisabledSkin" mod="1370668685775" signatureChecksum="1804087032" >
+        <def id="dt.components.skins.scrollPane:UpArrowDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="CellRenderer_selectedDownSkin" mod="1190338344687" >
+        <def id="CellRenderer_selectedDownSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/rescource/ScaleBitmapConst" mod="1372230138901" signatureChecksum="3554632121" >
+        <def id="dt.rescource:ScaleBitmapConst" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="dt.common.resLib:ResLibrary" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ScrollThumb_upSkin" mod="1190338344687" >
+        <def id="ScrollThumb_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/LineDefinition" mod="1367063596290" signatureChecksum="3132361964" >
+        <def id="com.nocircleno.graffiti.tools:LineDefinition" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/converters/DegrafaConverter" mod="1367063596405" signatureChecksum="2796813747" >
+        <def id="com.nocircleno.graffiti.converters:DegrafaConverter" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:LineObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushDefinition" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:ShapeObject" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="e" /> 
+        <dep id="flash.text:Font" type="e" /> 
+        <dep id="flash.display:GraphicsPathCommand" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="e" /> 
+        <dep id="com.nocircleno.graffiti.utils:Conversions" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:BrushObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:TextObject" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:BrushType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextSettings" type="e" /> 
+        <dep id="com.nocircleno.graffiti.display:GraffitiObject" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:LineObject" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:Font" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:BrushObject" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:ShapeObject" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="com.nocircleno.graffiti.display:TextObject" type="s" /> 
+        <dep id="com.nocircleno.graffiti.tools:TextSettings" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/cache/Cache" mod="1368509227132" signatureChecksum="2414422022" >
+        <def id="dt.cache:Cache" /> 
+        <dep id="dt.cache:MainCache" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="dt.cache:MainCache" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/IAsyncToken" mod="1367063594303" signatureChecksum="4164826139" >
+        <def id="com.dtedu.trial.interfaces:IAsyncToken" /> 
+        <dep id="com.dtedu.trial.interfaces:IListener" type="s" /> 
+        <dep id="com.dtedu.trial.interfaces:INotifier" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/AnswerBtnStyle" mod="1373330419201" signatureChecksum="1166242758" >
+        <def id="dt.components.skins.button:AnswerBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="dt/common/util/HTMLUtil" mod="1372728482485" signatureChecksum="1456302750" >
+        <def id="dt.common.util:HTMLUtil" /> 
+        <dep id="RegExp" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="RegExp" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/SubmitBtnStyle" mod="1370771231263" signatureChecksum="1196258254" >
+        <def id="dt.components.skins.button:SubmitBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="fl/core/ComponentShim" mod="1190338344687" >
+        <def id="fl.core:ComponentShim" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ShapeTool" mod="1367063596289" signatureChecksum="1901428488" >
+        <def id="com.nocircleno.graffiti.tools:ShapeTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.display:GraphicsPathCommand" type="e" /> 
+        <dep id="com.nocircleno.graffiti.utils:Conversions" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeType" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ShapeDefinition" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:BitmapTool" type="i" /> 
+      </script>
+      <script name="com/greensock/core/PropTween" mod="1367063597714" signatureChecksum="1667924009" >
+        <def id="com.greensock.core:PropTween" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ScrollBarResizableTileList" mod="1368509227194" signatureChecksum="1489496079" >
+        <def id="dt.components.controls.scrollBarResizable:ScrollBarResizableTileList" /> 
+        <dep id="fl.events:ScrollEvent" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="fl.controls:ScrollBarDirection" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="dt.components.controls.scrollBarResizable:ResizableScrollBar" type="e" /> 
+        <dep id="flash.display:Shape" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.display:Graphics" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:TileList" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/UpArrowUpSkin" mod="1370668685754" signatureChecksum="1371744850" >
+        <def id="dt.components.skins.scrollPane:UpArrowUpSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/DownloadBtnStyle" mod="1370771231247" signatureChecksum="398423382" >
+        <def id="dt.components.skins.button:DownloadBtnStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:StyleConst" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="fl/data/DataProvider" mod="1170135110614" >
+        <def id="fl.data:DataProvider" /> 
+        <dep id="TypeError" type="e" /> 
+        <dep id="fl.events:DataChangeType" type="e" /> 
+        <dep id="RangeError" type="e" /> 
+        <dep id="fl.events:DataChangeEvent" type="e" /> 
+        <dep id="XML" type="e" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="XMLList" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="dt/components/gconst/StyleConst" mod="1372230139213" signatureChecksum="3380274965" >
+        <def id="dt.components.gconst:StyleConst" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="Button_selectedUpSkin" mod="1190338344687" >
+        <def id="Button_selectedUpSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/common/util/ObjCreate" mod="1372230139399" signatureChecksum="3958600912" >
+        <def id="dt.common.util:ObjCreate" /> 
+        <dep id="dt.components.events:TabBarEvent" type="e" /> 
+        <dep id="dt.components.controls:GTabBar" type="e" /> 
+        <dep id="fl.controls:ScrollPolicy" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="dt.components.controls:GButton" type="e" /> 
+        <dep id="dt.components.gconst:FilterConst" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="dt.components.controls:GScrollPane" type="e" /> 
+        <dep id="dt.components.controls:GImageButton" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="dt.components.controls:GTabBar" type="s" /> 
+        <dep id="dt.components.controls:GButton" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="dt.components.controls:GScrollPane" type="s" /> 
+        <dep id="org.bytearray.display:ScaleBitmap" type="s" /> 
+        <dep id="dt.components.controls:GImageButton" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="CellRenderer_downSkin" mod="1190338344687" >
+        <def id="CellRenderer_downSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/skins/button/PlaySoundBtnStopStyle" mod="1370771231270" signatureChecksum="322265201" >
+        <def id="dt.components.skins.button:PlaySoundBtnStopStyle" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.rescource:ImagesConst" type="e" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins:SkinStyle" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ShapeType" mod="1367063596291" signatureChecksum="3237827149" >
+        <def id="com.nocircleno.graffiti.tools:ShapeType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/LineTool" mod="1367063596284" signatureChecksum="2201175750" >
+        <def id="com.nocircleno.graffiti.tools:LineTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineType" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="flash.display:LineScaleMode" type="e" /> 
+        <dep id="flash.display:CapsStyle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="flash.display:GraphicsPathWinding" type="e" /> 
+        <dep id="flash.display:GraphicsPathCommand" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="e" /> 
+        <dep id="com.nocircleno.graffiti.utils:Conversions" type="e" /> 
+        <dep id="flash.display:JointStyle" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LineDefinition" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:BitmapTool" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/DownArrowOverSkin" mod="1370668685770" signatureChecksum="3095145894" >
+        <def id="dt.components.skins.scrollPane:DownArrowOverSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="com/greensock/core/SimpleTimeline" mod="1367063597702" signatureChecksum="1331463768" >
+        <def id="com.greensock.core:SimpleTimeline" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.greensock.core:TweenCore" type="i" /> 
+      </script>
+      <script name="_563c8bf2dc68981f51f27dc4a22cd2043dbcae2b5faa8deafd22471d5c3bd760_flash_display_Sprite" mod="1373353412028" signatureChecksum="4257053873" >
+        <def id="_563c8bf2dc68981f51f27dc4a22cd2043dbcae2b5faa8deafd22471d5c3bd760_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="ScrollArrowUp_disabledSkin" mod="1190338344687" >
+        <def id="ScrollArrowUp_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="Button_selectedDisabledSkin" mod="1190338344687" >
+        <def id="Button_selectedDisabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="ScrollArrowUp_upSkin" mod="1190338344687" >
+        <def id="ScrollArrowUp_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/LineType" mod="1367063596287" signatureChecksum="65554138" >
+        <def id="com.nocircleno.graffiti.tools:LineType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/EnglishPractice/PracticeClickChoiceManager" mod="1373330419373" signatureChecksum="2607382422" >
+        <def id="dt.manager.practiceManager.EnglishPractice:PracticeClickChoiceManager" /> 
+        <dep id="dt.global:GConst" type="e" /> 
+        <dep id="dt.model:MyTextFontName" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="flash.text:TextFormat" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="dt.model:SoundInfo" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.text:TextFormat" type="s" /> 
+        <dep id="flash.text:TextField" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="dt.model:SoundInfo" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.manager.practiceManager:PracticeBaseManager" type="i" /> 
+      </script>
+      <script name="dt/manager/practiceManager/PracticeManager" mod="1373330419622" signatureChecksum="898338127" >
+        <def id="dt.manager.practiceManager:PracticeManager" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticePaintingManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeClickChoiceManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeDragManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeLineManager" type="e" /> 
+        <dep id="dt.model:PracticeType" type="e" /> 
+        <dep id="dt.common.util:Alert" type="e" /> 
+        <dep id="__AS3__.vec:Vector" type="e" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeWriteManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeEstimateManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeFillinManager" type="e" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticePaintingManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeClickChoiceManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeDragManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.interfaces:IPracticeManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeLineManager" type="s" /> 
+        <dep id="__AS3__.vec:Vector" type="s" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="XML" type="s" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeWriteManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.ChinesePractice:PracticeEstimateManager" type="s" /> 
+        <dep id="dt.manager.practiceManager.EnglishPractice:PracticeFillinManager" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/containers/UILoader" mod="1190338344687" >
+        <def id="fl.containers:UILoader" /> 
+        <dep id="flash.events:Event" type="e" /> 
+        <dep id="flash.net:URLRequest" type="e" /> 
+        <dep id="fl.events:ComponentEvent" type="e" /> 
+        <dep id="flash.events:IOErrorEvent" type="e" /> 
+        <dep id="flash.display:Loader" type="e" /> 
+        <dep id="fl.core:ComponentShim" type="e" /> 
+        <dep id="flash.events:SecurityErrorEvent" type="e" /> 
+        <dep id="flash.system:ApplicationDomain" type="e" /> 
+        <dep id="flash.events:HTTPStatusEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="flash.events:ProgressEvent" type="e" /> 
+        <dep id="flash.system:LoaderContext" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:Event" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.net:URLRequest" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="flash.display:Loader" type="s" /> 
+        <dep id="flash.display:LoaderInfo" type="s" /> 
+        <dep id="flash.system:LoaderContext" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.core:UIComponent" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/ToolRenderType" mod="1367063596296" signatureChecksum="309346195" >
+        <def id="com.nocircleno.graffiti.tools:ToolRenderType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="TextArea_disabledSkin" mod="1190338344687" >
+        <def id="TextArea_disabledSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/controls/scrollBarResizable/ResizableUIScrollBar" mod="1368509227198" signatureChecksum="4231286812" >
+        <def id="dt.components.controls.scrollBarResizable:ResizableUIScrollBar" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls:UIScrollBar" type="i" /> 
+      </script>
+      <script name="fl/controls/listClasses/TileListData" mod="1170135110520" >
+        <def id="fl.controls.listClasses:TileListData" /> 
+        <dep id="fl.core:UIComponent" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.controls.listClasses:ListData" type="i" /> 
+      </script>
+      <script name="ScrollArrowDown_upSkin" mod="1190338344687" >
+        <def id="ScrollArrowDown_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/UpArrowOverSkin" mod="1370668685742" signatureChecksum="36776960" >
+        <def id="dt.components.skins.scrollPane:UpArrowOverSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="fl/events/ScrollEvent" mod="1170135110879" >
+        <def id="fl.events:ScrollEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="fl/events/DataChangeType" mod="1170135110754" >
+        <def id="fl.events:DataChangeType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/trial/interfaces/ICommand" mod="1367063594303" signatureChecksum="2186649584" >
+        <def id="com.dtedu.trial.interfaces:ICommand" /> 
+        <dep id="com.dtedu.trial.interfaces:IDataBag" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.dtedu.trial.interfaces:IDisposable" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ScrollArrowUp_downSkin" mod="1190338344687" >
+        <def id="ScrollArrowUp_downSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/player/videoPlayer/GVideoPLayerVolumeBar" mod="1370668685866" signatureChecksum="4094595293" >
+        <def id="dt.components.player.videoPlayer:GVideoPLayerVolumeBar" /> 
+        <dep id="flash.events:MouseEvent" type="e" /> 
+        <dep id="dt.global:Global" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="flash.display:SimpleButton" type="e" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayer" type="e" /> 
+        <dep id="dt.common.util:ObjCreate" type="e" /> 
+        <dep id="dt.manager:TooltipManager" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.display:Sprite" type="e" /> 
+        <dep id="flash.events:MouseEvent" type="s" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="dt.events:GEvent" type="s" /> 
+        <dep id="flash.display:SimpleButton" type="s" /> 
+        <dep id="dt.components.player.videoPlayer:GVideoPlayer" type="s" /> 
+        <dep id="flash.display:MovieClip" type="s" /> 
+        <dep id="flash.display:Sprite" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.containers:GContainer" type="i" /> 
+      </script>
+      <script name="dt/common/util/DisplayObjectUtil" mod="1372728482500" signatureChecksum="1413342065" >
+        <def id="dt.common.util:DisplayObjectUtil" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="e" /> 
+        <dep id="flash.display:DisplayObject" type="e" /> 
+        <dep id="dt.common.util:StrUtil" type="e" /> 
+        <dep id="flash.display:MovieClip" type="e" /> 
+        <dep id="flash.display:DisplayObjectContainer" type="s" /> 
+        <dep id="flash.display:DisplayObject" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/events/ListEvent" mod="1170135110848" >
+        <def id="fl.events:ListEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="ScrollThumb_downSkin" mod="1190338344687" >
+        <def id="ScrollThumb_downSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="dt/components/controls/GScrollPane" mod="1368509227255" signatureChecksum="1882385425" >
+        <def id="dt.components.controls:GScrollPane" /> 
+        <dep id="fl.core:InvalidationType" type="e" /> 
+        <dep id="dt.components.skins:SkinManager" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="fl.containers:ScrollPane" type="i" /> 
+      </script>
+      <script name="dt/components/skins/scrollPane/DownArrowUpSkin" mod="1370668685774" signatureChecksum="24980472" >
+        <def id="dt.components.skins.scrollPane:DownArrowUpSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="dt.components.skins.scrollPane:BaseScrollSkill" type="i" /> 
+      </script>
+      <script name="dt/common/resLib/events/LibraryEvent" mod="1372728482546" signatureChecksum="2192664347" >
+        <def id="dt.common.resLib.events:LibraryEvent" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:Event" type="i" /> 
+      </script>
+      <script name="ScrollPane_upSkin" mod="1190338344687" >
+        <def id="ScrollPane_upSkin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/SelectionTool" mod="1367063596301" signatureChecksum="3696197772" >
+        <def id="com.nocircleno.graffiti.tools:SelectionTool" /> 
+        <dep id="com.nocircleno.graffiti.tools:ToolRenderType" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="e" /> 
+        <dep id="Math" type="e" /> 
+        <dep id="flash.geom:Point" type="e" /> 
+        <dep id="com.nocircleno.graffiti.tools:LayerType" type="e" /> 
+        <dep id="flash.geom:Rectangle" type="s" /> 
+        <dep id="flash.geom:Point" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="com.nocircleno.graffiti.tools:ITool" type="i" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="dt/common/util/ArrayUtil" mod="1372728482500" signatureChecksum="3327288399" >
+        <def id="dt.common.util:ArrayUtil" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/dtedu/ebook/miscs/ManagerConst" mod="1370771226722" signatureChecksum="2276081533" >
+        <def id="com.dtedu.ebook.miscs:ManagerConst" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/nocircleno/graffiti/tools/BrushType" mod="1367063596283" signatureChecksum="3611195959" >
+        <def id="com.nocircleno.graffiti.tools:BrushType" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="fl/controls/ButtonLabelPlacement" mod="1170135109739" >
+        <def id="fl.controls:ButtonLabelPlacement" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="ScrollTrack_skin" mod="1190338344687" >
+        <def id="ScrollTrack_skin" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:MovieClip" type="i" /> 
+      </script>
+      <keep-as3-metadata>
+        <metadata name="SkinPart" />
+        <metadata name="Transient" />
+        <metadata name="Bindable" />
+        <metadata name="ChangeEvent" />
+        <metadata name="IMXMLObject" />
+        <metadata name="Managed" />
+        <metadata name="NonCommittingChangeEvent" />
+      </keep-as3-metadata>
+      <digests>
+        <digest type="SHA-256" signed="false" value="b0b9f7b90d1606b4e6a79670166600c2e63b3806a8afa5d8f4b34872a1afd519"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

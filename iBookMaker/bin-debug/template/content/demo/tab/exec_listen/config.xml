@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exec>
+	<practice>
+		<item type="UnitTest" testType="exec_listen" unit = "U01" >
+			<page sound="7AU01_UT1_1_5.mp3">
+				<item type="fill" execNum="1,5">
+					<item>
+					    <answer>B</answer>
+					</item>
+					<item>
+					    <answer>D</answer>
+					</item>
+					<item>
+					    <answer>A</answer>
+					</item>
+					<item>
+					    <answer>E</answer>
+					</item>
+					<item>
+					    <answer>C</answer>
+					</item>
+				</item>				
+			</page>
+			<page sound="7AU01_UT1_6.mp3">
+				<item type="choice" execNum="6">
+					<answer>B</answer>
+				</item>
+			</page>
+			<page sound="7AU01_UT1_7.mp3">
+				<item type="choice" execNum="7">
+					<answer>C</answer>
+				</item>				
+			</page>
+			<page sound="7AU01_UT1_8.mp3">
+				<item type="choice" execNum="8">
+					<answer>B</answer>
+				</item>
+			</page>
+			<page sound="7AU01_UT1_9.mp3">
+				<item type="choice" execNum="9">
+					<answer>A</answer>
+				</item>				
+			</page>
+			<page sound="7AU01_UT1_10.mp3">
+				<item type="choice" execNum="10">
+					<answer>A</answer>
+				</item>
+			</page>
+			<page sound="7AU01_UT1_11_12.mp3">
+				<item type="choice" execNum="11">
+					<answer>B</answer>
+				</item>
+                <item type="choice" execNum="12">
+					<answer>A</answer>
+				</item>	
+			</page>
+			<page sound="7AU01_UT1_13_15.mp3">
+				<item type="choice" execNum="13">
+						<answer>B</answer>
+				</item>
+				<item type="choice" execNum="14">
+						<answer>A</answer>
+				</item>
+				<item type="choice" execNum="15">
+						<answer>C</answer>
+				</item>			
+			</page>
+			<page sound="7AU01_UT1_16_20.mp3">
+				<item type="fill" execNum="16,20">
+					<item>
+						<answer>English</answer>
+					</item>
+					<item>
+						<answer>Tom</answer>
+					</item>
+					<item>
+						<answer>ten#10</answer>
+					</item>
+					<item>
+						<answer>His</answer>
+					</item>
+					<item>
+						<answer>friends</answer>
+					</item>		
+				</item>		
+			</page>
+		</item>
+	</practice>
+</exec>

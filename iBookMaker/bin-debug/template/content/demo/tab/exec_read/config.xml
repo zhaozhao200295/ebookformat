@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exec>
+	<practice>
+		<item type="UnitTest" testType="exec_read" unit = "U01" >
+			<page>
+				<item type="choice" execNum="51">
+					<answer>B</answer>
+				</item>	
+				<item type="choice" execNum="52">
+					<answer>C</answer>
+				</item>	
+				<item type="choice" execNum="53">
+					<answer>A</answer>
+				</item>	
+				<item type="choice" execNum="54">
+					<answer>B</answer>
+				</item>	
+				<item type="choice" execNum="55">
+					<answer>B</answer>
+				</item>	
+			</page>
+			<page>
+				<item type="choice" execNum="56">
+					<answer>A</answer>
+				</item>	
+				<item type="choice" execNum="57">
+					<answer>B</answer>
+				</item>	
+				<item type="choice" execNum="58">
+					<answer>B</answer>
+				</item>	
+				<item type="choice" execNum="59">
+					<answer>C</answer>
+				</item>	
+				<item type="choice" execNum="60">
+					<answer>C</answer>
+				</item>	
+			</page>
+		</item>
+	</practice>
+</exec>
