@@ -52,5 +52,7 @@ package com.dtedu.dcl.interfaces
 		function hideOverlay(targetComponent:IDCLComponent, overlayName:String = null, remove:Boolean = true):void;
 		
 		function hideAllOverlay(mode:String = null):void;
+		
+		function loadDCLLibrary(dcls:Dictionary, callback:Function):void;
 	}
 }

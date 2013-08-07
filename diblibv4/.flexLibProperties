@@ -8,6 +8,9 @@
     <classEntry path="com.dtedu.digipub.views.book.SlidesView"/>
     <classEntry path="com.dtedu.digipub.views.page.Page"/>
     <classEntry path="com.dtedu.trial.utils.UIDUtil"/>
+    <classEntry path="com.dtedu.speak.interfaces.ISkin"/>
+    <classEntry path="com.dtedu.speak.core.UIComponent"/>
+    <classEntry path="com.dtedu.speak.skins.Skin"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

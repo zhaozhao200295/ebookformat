@@ -262,6 +262,42 @@ package com.dtedu.dcl
 			}
 		}
 		
+		public function loadDCLLibrary(dcls:Dictionary, callback:Function):void
+		{
+			
+		}
+		
+		private function _loadResLib(data:Array, token:IAsyncToken):void
+		{
+			var controller:IBookController = this;
+			var currentLibrary:Object = data.shift();
+			var lc:LoaderContext = new LoaderContext();
+			lc.allowCodeImport = true;
+			var loader:IResourceLoader = _bookViewer.kernel.resourceProvider.load(
+				new URLRequest(URLUtil.combine(_basePath, "libs/" + currentLibrary.url) + "?no_cache=" + new Date().time),
+				ResourceType.IMAGE, lc);
+			
+			loader.addEventListener(
+				Event.COMPLETE,						
+				function (e:Event):void
+				{
+					ThemeManager.instance.addStyle(currentLibrary.key, loader.data);
+					
+					if(data.length == 0)
+					{
+						_enableChangeTracking = true;
+						token.notifier.notify(true, controller);
+					}
+					else
+					{
+						_loadResLib(data, token);
+					}
+					
+					loader.detachAndClean();
+				}
+			);
+		}
+		
 		public function dispose():void
 		{
 			hideAllOverlay();
